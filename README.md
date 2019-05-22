@@ -5,6 +5,7 @@
 ![fuzzy_controller](https://user-images.githubusercontent.com/33702287/58201819-b3a48b80-7cde-11e9-9430-4bd0ce4746ba.png)
 
 Introduction
+
 An artificial world has been created by some villains. The shocking(!) news is that their aim is to conquer the whole galaxy via the artificial world. The artificial world is very similar to ours and in that World there live human-like biological beings called bots. They are creatures equipped with artificial intelligence without soul. Bots attack the planets in the galaxy to serve their masters. Thus, the planets including ours are in danger. However, our scientists and politicians have found a way to turn this situation into our advantage. They have analyzed that bots can get sick and dealing with sick bots becomes easier. Hence, they have developed a virus. Moreover, they have placed an undercover agent among the villains and that agent have founded a medicine company to sell the cure to the bots. Hence, the bots implicitly contribute to our economy by buying the medicines. In this way, we can make more investments for the developments which will protect our world from villains.
 
 The point of the story is creating a plague in the artificial world and controlling it is utterly severe. In this homework, you will create a plague by spreading your virus throughout the artificial world. Your aim is to infect 60% of the bots in the world and maintain that percentage. In this way, your disease will not be considered significant enough by the authorities to develop a permanent cure for it and there will always be customers to your medicines.
@@ -13,6 +14,7 @@ You infect the bots by contaminating the environment with your virus. Assume tha
 
 
 Input Variables and Control Variable
+
 The input variables are the two measurements which are the current percentage of the infected bots,
 
 π∈[0,1] 
