@@ -30,3 +30,13 @@ The control variable,
 is the infection rate to be added to the current infection rate. Note that the control variable allows to increase or decrease the infection rate and its maximum magnitude is limited to 0.15.
 
 Task: Implementing a fuzzy controller which takes two input measurements and provides one output control to quickly infect 60 % of the bots and maintain that percentage.
+
+Fuzzy Partitioning
+
+![infection](https://user-images.githubusercontent.com/33702287/58202500-6a553b80-7ce0-11e9-808c-a8b5362564d3.png)
+
+![control_variable](https://user-images.githubusercontent.com/33702287/58202528-7e993880-7ce0-11e9-9fad-cb506e49f649.png)
+
+Results
+
+![plague](https://user-images.githubusercontent.com/33702287/58202548-8658dd00-7ce0-11e9-9973-3df9644bcd92.png)
