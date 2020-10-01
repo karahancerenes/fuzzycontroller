@@ -1,4 +1,3 @@
-
 #Enes Berk Karahançer 2166734
 #EE496 HW3
 
@@ -82,13 +81,13 @@ class Plague(object):
         control_variable = ctrl.Consequent(np.arange(-0.15,0.15,0.01), 'control_variable')
 
         #defining membership functions
-        infection['low'] = fuzz.trimf(infection.universe, [0, 0, 0.6])
-        infection['medium'] = fuzz.trimf(infection.universe, [0.5, 0.6, 0.7])
-        infection['high'] = fuzz.trimf(infection.universe, [0.6, 1, 1])
+        infection['low'] = fuzz.trimf(infection.universe, [0, 0, 0.45])
+        infection['medium'] = fuzz.trimf(infection.universe, [0.45, 0.6, 0.75])
+        infection['high'] = fuzz.trimf(infection.universe, [0.75, 1, 1])
 
-        control_variable['low'] = fuzz.trimf(control_variable.universe, [-0.15, -0.15, -0.04])
-        control_variable['medium'] = fuzz.trimf(control_variable.universe, [-0.06, 0, 0.06])
-        control_variable['high'] = fuzz.trimf(control_variable.universe, [0.04, 0.15, 0.15])
+        control_variable['low'] = fuzz.trimf(control_variable.universe, [-0.30, -0.30, -0.12])
+        control_variable['medium'] = fuzz.trimf(control_variable.universe, [-0.14, 0, 0.14])
+        control_variable['high'] = fuzz.trimf(control_variable.universe, [0.12, 0.30, 0.30])
 
         #defining fuzzy rules
         rule1 = ctrl.Rule(infection['low'], control_variable['high'] )
